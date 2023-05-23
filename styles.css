@@ -2,8 +2,50 @@ body{
    text-align: center;
    width: 80%;
    margin: 0 auto;
+   font-family: 'Courier New', Courier, monospace;
+   background-color: #F9F9F9;
 }
 img{
    width: 300px;
    height: 250px;
+}
+.avatar {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+}
+
+.card {
+   width: 600px;
+   margin: 30px auto auto auto;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   text-align: center;
+   border: 10px solid #778da9;
+
+}
+.container{
+   display: flex;
+}
+.text{
+   color: #778da9;
+}
+.follow-btn{
+   background: none;
+   border: 2px solid lightgreen;
+   border-radius: 5px;
+   font-weight:bold ;
+}
+
+footer{
+   background-image: linear-gradient(to bottom, #F9F9F9, #DADADA);
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 0;
+   color: #555555;
+   text-align: center;
 }
